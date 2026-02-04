@@ -6,29 +6,39 @@
     <title>Práctica Redes - Rubén Freire</title>
     <style>
         body {
-            background-color: #121212; /* Fondo negro suave */
-            color: #ffffff;            /* Letras blancas */
+            background-color: #121212; /* Fondo negro */
+            color: #ffffff;            /* Texto blanco */
             font-family: Arial, sans-serif;
-            padding: 20px;
+            text-align: center;        /* Centrado para que quede más elegante */
+            padding: 50px;
         }
         a {
-            color: #4da6ff; /* Enlaces en azul claro para que se lean bien */
+            color: #4da6ff;
+            text-decoration: none;
+            font-size: 1.2em;
         }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1 { margin-bottom: 40px; }
+        .section { margin-bottom: 30px; }
     </style>
 </head>
 <body>
     <h1>Bienvenido a la web de Rubén Freire Suárez</h1>
 
-    <h2>Contacto</h2>
-    <p>Soy alumno de la asignatura de Redes. Puedes escribirme a mi correo electrónico:</p>
-    
-    <p>
-       <a href="mailto:ruben.freire.suarez@udc.es">ruben.freire.suarez@udc.es</a>
-    </p>
+    <div class="section">
+        <h2>Contacto</h2>
+        <p>
+           <a href="mailto:ruben.freire.suarez@udc.es">ruben.freire.suarez@udc.es</a>
+        </p>
+    </div>
 
-    <h2>Créditos</h2>
-    <p>Esta página está alojada gracias a: 
-       <a href="https://freedns.afraid.org">Free DNS</a>
-    </p>
+    <div class="section">
+        <h2>Créditos</h2>
+        <p>
+           <a href="https://freedns.afraid.org">Free DNS</a>
+        </p>
+    </div>
 </body>
 </html>
